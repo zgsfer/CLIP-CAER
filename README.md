@@ -38,14 +38,11 @@ pip install -r requirements.txt
 ## Usage
 
 ### Training
->>>>>>> 6abeab6 (update)
 ```bash
 bash train.sh
 ```
 
 ### Evaluation
-
->>>>>>> 6abeab6 (update)
 ```bash
 bash valid.sh
 ```
