@@ -1,6 +1,6 @@
 # CLIP-based Context-aware Academic Emotion Recognition
 
-This repo is the official implementation for CLIP-based Context-aware Academic Emotion Recognition[[arixv](dkdjk)]. The paper has been accepted to ICCV 2025.
+This repo is the official implementation for CLIP-based Context-aware Academic Emotion Recognition[[arixv](https://arxiv.org/abs/2507.00586)]. The paper has been accepted to ICCV 2025.
 
 ## Introduction
 
@@ -10,9 +10,13 @@ to be added.
 
 We provide the model weights trained by the method in this paper, which can be downloaded [here]().
 
+## Performance
+
+![image-20250702095507999](./imgs/performance.png)
+
 ## Visualizations
 
-to be added.
+![image-20250702095507999](./imgs/vsualizations.png)
 
 ## Environment
 
@@ -22,14 +26,14 @@ to be update
 
 - Python 3.8
 
-- PyTorch 1.10.2
+- PyTorch 2.2.2
 
-- CUDA 11.3
+- CUDA 12.4
 
 ```bash
-conda create -n dsta python=3.8
-conda activate dsta
-pip install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+conda create -n clip-caer python=3.8
+conda activate clip-caer
+pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
 ```
 
@@ -37,7 +41,15 @@ pip install -r requirements.txt
 
 ### Training
 
+```bash
+bash train.sh
+```
+
 ### Evaluation
+
+```bash
+bash valid.sh
+```
 
 ## Citations
 
@@ -54,4 +66,4 @@ If you find our paper useful in your research, please consider citing:
 
 ## Acknowledgment
 
-Our codes are mainly based on [DFER-CLIP](https://github.com/zengqunzhao/DFER-CLIP/tree/main).Many thanks to the authors!
+Our codes are mainly based on [DFER-CLIP](https://github.com/zengqunzhao/DFER-CLIP/tree/main). Many thanks to the authors!
