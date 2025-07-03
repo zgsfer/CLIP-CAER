@@ -1,6 +1,6 @@
 # CLIP-based Context-aware Academic Emotion Recognition
 
-This repo is the official implementation for CLIP-based Context-aware Academic Emotion Recognition[[arixv](https://arxiv.org/abs/2507.00586)]. The paper has been accepted to ICCV 2025.
+This repo is the official implementation for CLIP-based Context-aware Academic Emotion Recognition[[arXiv](https://arxiv.org/abs/2507.00586)]. The paper has been accepted to ICCV 2025.
 
 ## Introduction
 
