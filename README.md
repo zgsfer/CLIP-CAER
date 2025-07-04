@@ -8,7 +8,7 @@ to be added.
 
 ## Weights Download
 
-We provide the model weights trained by the method in this paper, which can be downloaded [here](https://drive.google.com/drive/folders/1GVIVP8-WxwTg4YmRRyBDAd1CVXzdTuXw).
+We provide the model weights trained by the method in this paper, which can be downloaded [here](https://drive.google.com/file/d/1mNYBKJ-vlsGf1QTN0tySs0-7sp-f7flb/view?usp=sharing).
 
 ## Performance
 ![image-20250702095507999](./imgs/performance.png)
