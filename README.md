@@ -8,7 +8,7 @@ to be added.
 
 ## Weights Download
 
-We provide the model weights trained by the method in this paper, which can be downloaded [here]().
+We provide the model weights trained by the method in this paper, which can be downloaded [here](https://drive.google.com/drive/folders/1GVIVP8-WxwTg4YmRRyBDAd1CVXzdTuXw).
 
 ## Performance
 ![image-20250702095507999](./imgs/performance.png)
@@ -20,8 +20,6 @@ We provide the model weights trained by the method in this paper, which can be d
 
 The code is developed and tested under the following environment:
 
-to be update
-
 - Python 3.8
 
 - PyTorch 2.2.2
@@ -32,7 +30,6 @@ to be update
 conda create -n clip-caer python=3.8
 conda activate clip-caer
 pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121
-pip install -r requirements.txt
 ```
 
 ## Usage
@@ -61,5 +58,4 @@ If you find our paper useful in your research, please consider citing:
 ```
 
 ## Acknowledgment
-
 Our codes are mainly based on [DFER-CLIP](https://github.com/zengqunzhao/DFER-CLIP/tree/main). Many thanks to the authors!
